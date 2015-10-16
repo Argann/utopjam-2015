@@ -5,16 +5,16 @@ Members:
 
 Graphists:
 
-Gaëlle PERREE
-Thibaud MORIN
+- Gaëlle PERREE
+- Thibaud MORIN
 
 Soun Designer
 
-Alex GOUARD
+- Alex GOUARD
 
 Developpers
 
-Argann BONNEAU
-Corentin JEZEQUEL
-Etienne CASSIN
-Eric LEGUEN
+- Argann BONNEAU
+- Corentin JEZEQUEL
+- Etienne CASSIN
+- Eric LEGUEN
