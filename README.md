@@ -1,7 +1,7 @@
 # utopjam-2015
 Dépot du jeu de la game jam des utopiales de 2015
 
-Members:
+## Members:
 
 Graphists:
 
@@ -18,3 +18,7 @@ Developpers
 - Corentin JEZEQUEL
 - Etienne CASSIN
 - Eric LEGUEN
+
+## Slack
+
+Le slack est disponible à l'adresse : `https://utopjam2015.slack.com/messages/general/`
