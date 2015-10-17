@@ -16,6 +16,8 @@ public class PlayerTrigger : MonoBehaviour {
 		} else if (other_go.tag == "Ladder") {
 			touchingLadder = true;
 			ladder = other_go.gameObject;
+		} else if (other_go.tag == "HiddenPlatform") {
+			other_go.gameObject.GetComponent<HiddenPlatform>().ShowSprite(true);
 		}
 	}
 
@@ -27,6 +29,8 @@ public class PlayerTrigger : MonoBehaviour {
 		} else if (other_go.tag == "Ladder") {
 			touchingLadder = false;
 			ladder = null;
+		} else if (other_go.tag == "HiddenPlatform") {
+			other_go.gameObject.GetComponent<HiddenPlatform>().ShowSprite(false);
 		}
 	}
 
