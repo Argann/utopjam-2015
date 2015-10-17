@@ -20,9 +20,9 @@ public class CameraPosition : MonoBehaviour {
         else
         {
             if (theTarget.position.y < seuil)
-                transform.position = new Vector3(theTarget.position.x, 6, theTarget.position.z - distance);
+                transform.position = new Vector3(theTarget.position.x, 0, theTarget.position.z - distance);
             else
-                transform.position = new Vector3(theTarget.position.x, 6+seuil, theTarget.position.z - distance);
+                transform.position = new Vector3(theTarget.position.x, seuil, theTarget.position.z - distance);
         }
     }
 }

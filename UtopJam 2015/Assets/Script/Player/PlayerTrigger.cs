@@ -12,7 +12,6 @@ public class PlayerTrigger : MonoBehaviour {
 	private GameObject ladder = null;
 
 	void OnTriggerEnter2D(Collider2D other_go){
-		Debug.Log ("On entre !");
 		if (other_go.tag == "LightSwitch") {
 			touchingLightSwitch = true;
 			lightSwitch = other_go.gameObject;
@@ -23,11 +22,13 @@ public class PlayerTrigger : MonoBehaviour {
 			other_go.gameObject.GetComponent<HiddenPlatform> ().ShowSprite (true);
 		} else if (other_go.tag == "Door") {
 			other_go.GetComponent<Animator>().SetBool("doorIsOpen", true);
-		}
+        } else if (other_go.tag == "HidingElement") {
+            other_go.gameObject.GetComponent<DisappearingElement>().ShowSprite(true);
+        }
+
 	}
 
 	void OnTriggerExit2D(Collider2D other_go){
-		Debug.Log ("On sort !");
 		if (other_go.tag == "LightSwitch") {
 			touchingLightSwitch = false;
 			lightSwitch = null;
@@ -38,7 +39,10 @@ public class PlayerTrigger : MonoBehaviour {
 			ladder = null;
 		} else if (other_go.tag == "HiddenPlatform") {
 			other_go.gameObject.GetComponent<HiddenPlatform>().ShowSprite(false);
-		}
+        } else if (other_go.tag == "HidingElement")
+        {
+            other_go.gameObject.GetComponent<DisappearingElement>().ShowSprite(false);
+        }
 	}
 
 	void Update(){
