@@ -69,4 +69,9 @@ public class PlayerTrigger : MonoBehaviour {
 			GetComponent<Rigidbody2D>().gravityScale = 3;
 		}
 	}
+
+    public bool OnLadder()
+    {
+        return ladderState;
+    }
 }
