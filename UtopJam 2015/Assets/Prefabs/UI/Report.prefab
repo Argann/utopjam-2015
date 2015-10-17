@@ -136,10 +136,10 @@ RectTransform:
   - {fileID: 22484162}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_AnchorMin: {x: .5, y: .132537201}
-  m_AnchorMax: {x: .5, y: .388404965}
-  m_AnchoredPosition: {x: -2, y: 117}
-  m_SizeDelta: {x: 370, y: 312}
+  m_AnchorMin: {x: .325000018, y: .0500000007}
+  m_AnchorMax: {x: .670163512, y: .950735569}
+  m_AnchoredPosition: {x: .5, y: 1}
+  m_SizeDelta: {x: -5, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!1001 &100100000
 Prefab:
