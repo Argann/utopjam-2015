@@ -6,9 +6,15 @@ using System.Collections;
 public class SwitchAction : MonoBehaviour
 {
     public GameObject[] items;
+    public Sprite on;
+    public Sprite off;
 
     public void SwitchItem()
     {
+        if (this.GetComponent<SpriteRenderer>().sprite == on)
+        {
+            this.GetComponent<SpriteRenderer>().sprite = off;
+        }
         foreach (GameObject item in items)
         {
             if (item.GetComponent<Element>().GetIsActive())
@@ -19,7 +25,7 @@ public class SwitchAction : MonoBehaviour
             else
             {
                 item.GetComponent<Element>().Activate();
-            } 
+            }
         }
     }
 }
