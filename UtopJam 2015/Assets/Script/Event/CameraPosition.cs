@@ -3,7 +3,9 @@ using System.Collections;
 
 public class CameraPosition : MonoBehaviour {
     public float distance;
-    public GameObject target;
+    public PlayerTrigger target;
+    public Transform theTarget;
+    public float seuil;
 
 	// Use this for initialization
 	void Start () {
@@ -11,13 +13,16 @@ public class CameraPosition : MonoBehaviour {
 	}
 	
     void Update(){
-        if (target.GetComponent<PlayerTrigger>().OnLadder())
+        if (target.ladderState)
         {
-            transform.position = new Vector3(target.transform.position.x, target.transform.position.y +2, target.transform.position.z - distance);
+            transform.position = new Vector3(theTarget.position.x, theTarget.position.y + 2, theTarget.position.z - distance);
         }
         else
         {
-            transform.position = new Vector3(target.transform.position.x, 6, target.transform.position.z - distance);
+            if (theTarget.position.y < seuil)
+                transform.position = new Vector3(theTarget.position.x, 6, theTarget.position.z - distance);
+            else
+                transform.position = new Vector3(theTarget.position.x, 6+seuil, theTarget.position.z - distance);
         }
     }
 }

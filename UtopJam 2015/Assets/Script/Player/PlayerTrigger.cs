@@ -8,7 +8,7 @@ public class PlayerTrigger : MonoBehaviour {
 	private GameObject lightSwitch = null;
 
 	private bool touchingLadder = false;
-	private bool ladderState = false;
+	[HideInInspector] public bool ladderState = false;
 	private GameObject ladder = null;
 
 	void OnTriggerEnter2D(Collider2D other_go){
@@ -69,9 +69,4 @@ public class PlayerTrigger : MonoBehaviour {
 			GetComponent<Rigidbody2D>().gravityScale = 3;
 		}
 	}
-
-    public bool OnLadder()
-    {
-        return ladderState;
-    }
 }
