@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: c0b7b91580fc0fb48a4acb48573b1d73
-timeCreated: 1445093663
-licenseType: Pro
+guid: d643b50b78ba66e40a14284ebd57c96a
+timeCreated: 1445097039
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Plate-forme_0
@@ -29,10 +29,17 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
+<<<<<<< HEAD
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+=======
   textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: 0
+>>>>>>> 3ef99de349e513acdbc74b54e21d5d25646acdcb
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -40,18 +47,29 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+<<<<<<< HEAD
+  spriteMode: 1
+=======
   allowsAlphaSplitting: 0
   spriteMode: 2
+>>>>>>> 3ef99de349e513acdbc74b54e21d5d25646acdcb
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
+  spritePixelsToUnits: 100
+=======
   spritePixelsToUnits: 128
+>>>>>>> 3ef99de349e513acdbc74b54e21d5d25646acdcb
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+<<<<<<< HEAD
+    sprites: []
+=======
     sprites:
     - name: Plate-forme_0
       rect:
@@ -83,6 +101,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> 3ef99de349e513acdbc74b54e21d5d25646acdcb
   spritePackingTag: 
   userData: 
   assetBundleName: 
