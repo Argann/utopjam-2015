@@ -310,7 +310,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 284801588}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942465239}
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &284801588
@@ -605,6 +616,12 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 801491271}
+--- !u!114 &942465239 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11424694, guid: bef9279f41669ab4196f807e8f4c9141,
+    type: 2}
+  m_PrefabInternal: {fileID: 1785245166}
+  m_Script: {fileID: 11500000, guid: a8fc8b45dc7fd4e479a9368d87257f7d, type: 3}
 --- !u!1 &1577806578
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,6 +803,52 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1579755693}
+--- !u!1001 &1785245166
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 413066, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .0751894116
+      objectReference: {fileID: 0}
+    - target: {fileID: 413066, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.66676378
+      objectReference: {fileID: 0}
+    - target: {fileID: 413066, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 413066, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413066, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413066, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413066, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 413066, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11424694, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+      propertyPath: Menu
+      value: 
+      objectReference: {fileID: 751450780}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bef9279f41669ab4196f807e8f4c9141, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1943781978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,7 +1093,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2048295889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942465239}
+        m_MethodName: LoadLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2048295889
