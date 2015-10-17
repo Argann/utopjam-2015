@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 81c55e34c1a89d742abe5b7b3dad985e
-timeCreated: 1445090476
+guid: 1fe8028ee46144e49aaf70fbfd35a506
+timeCreated: 1445113610
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: perso plus anim'_0
-    21300002: perso plus anim'_1
-    21300004: perso plus anim'_2
-    21300006: perso plus anim'_3
-    21300008: perso plus anim'_4
-    21300010: perso plus anim'_5
-    21300012: perso plus anim'_6
-    21300014: perso plus anim'_7
+    21300000: echelle_0
+    21300002: echelle_1
+    21300004: echelle_2
+    21300006: echelle_3
+    21300008: echelle_4
+    21300010: echelle_5
+    21300012: echelle_6
+    21300014: echelle_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,7 +57,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: perso plus anim'_0
+    - name: echelle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -65,9 +65,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: perso plus anim'_1
+    - name: echelle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -75,9 +75,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: perso plus anim'_2
+    - name: echelle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -85,9 +85,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: perso plus anim'_3
+    - name: echelle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -95,9 +95,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: perso plus anim'_4
+    - name: echelle_4
       rect:
         serializedVersion: 2
         x: 128
@@ -105,9 +105,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: perso plus anim'_5
+    - name: echelle_5
       rect:
         serializedVersion: 2
         x: 160
@@ -115,9 +115,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: perso plus anim'_6
+    - name: echelle_6
       rect:
         serializedVersion: 2
         x: 192
@@ -125,9 +125,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: perso plus anim'_7
+    - name: echelle_7
       rect:
         serializedVersion: 2
         x: 224
@@ -135,7 +135,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
