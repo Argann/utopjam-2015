@@ -20,7 +20,9 @@ public class PlayerTrigger : MonoBehaviour {
 			touchingLadder = true;
 			ladder = other_go.gameObject;
 		} else if (other_go.tag == "HiddenPlatform") {
-			other_go.gameObject.GetComponent<HiddenPlatform>().ShowSprite(true);
+			other_go.gameObject.GetComponent<HiddenPlatform> ().ShowSprite (true);
+		} else if (other_go.tag == "Door") {
+			other_go.GetComponent<Animator>().SetBool("doorIsOpen", true);
 		}
 	}
 
@@ -69,4 +71,9 @@ public class PlayerTrigger : MonoBehaviour {
 			GetComponent<Rigidbody2D>().gravityScale = 3;
 		}
 	}
+
+    public bool OnLadder()
+    {
+        return ladderState;
+    }
 }
