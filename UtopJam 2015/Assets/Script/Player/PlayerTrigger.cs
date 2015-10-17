@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityStandardAssets._2D;
 
@@ -8,11 +8,10 @@ public class PlayerTrigger : MonoBehaviour {
 	private GameObject lightSwitch = null;
 
 	private bool touchingLadder = false;
-	private bool ladderState = false;
+	[HideInInspector] public bool ladderState = false;
 	private GameObject ladder = null;
 
 	void OnTriggerEnter2D(Collider2D other_go){
-		Debug.Log ("On entre !");
 		if (other_go.tag == "LightSwitch") {
 			touchingLightSwitch = true;
 			lightSwitch = other_go.gameObject;
@@ -23,11 +22,13 @@ public class PlayerTrigger : MonoBehaviour {
 			other_go.gameObject.GetComponent<HiddenPlatform> ().ShowSprite (true);
 		} else if (other_go.tag == "Door") {
 			other_go.GetComponent<Animator>().SetBool("doorIsOpen", true);
-		}
+        } else if (other_go.tag == "HidingElement") {
+            other_go.gameObject.GetComponent<DisappearingElement>().ShowSprite(true);
+        }
+
 	}
 
 	void OnTriggerExit2D(Collider2D other_go){
-		Debug.Log ("On sort !");
 		if (other_go.tag == "LightSwitch") {
 			touchingLightSwitch = false;
 			lightSwitch = null;
@@ -36,15 +37,27 @@ public class PlayerTrigger : MonoBehaviour {
 			ladderState = false;
 			GetComponent<Rigidbody2D>().gravityScale = 3;
 			ladder = null;
+			gameObject.GetComponent<Animator>().SetBool("Grimpe", false);
 		} else if (other_go.tag == "HiddenPlatform") {
 			other_go.gameObject.GetComponent<HiddenPlatform>().ShowSprite(false);
-		}
+        } else if (other_go.tag == "HidingElement")
+        {
+            other_go.gameObject.GetComponent<DisappearingElement>().ShowSprite(false);
+        }
 	}
 
 	void Update(){
 		if (Input.GetKeyDown (KeyCode.E)) {
 			if (touchingLightSwitch)
 				lightSwitch.GetComponent<SwitchAction>().SwitchItem();
+		}
+
+		if (ladderState) {
+			gameObject.GetComponent<Animator>().SetBool("Grimpe", true);
+		}
+
+		if (ladderState && !Input.GetKey (KeyCode.UpArrow) && !Input.GetKey (KeyCode.DownArrow)) {
+			gameObject.GetComponent<Animator>().SetBool("BougeGrimpe", false);
 		}
 
 		if (Input.GetKey (KeyCode.UpArrow)) {
@@ -55,6 +68,7 @@ public class PlayerTrigger : MonoBehaviour {
 			} else if (touchingLadder && ladderState && (ladder.transform.position.y >= transform.position.y)){
 				transform.position += new Vector3(0f, 0.1f);
 			}
+			gameObject.GetComponent<Animator>().SetBool("BougeGrimpe", true);
 		}
 
 		if (Input.GetKey (KeyCode.DownArrow)) {
@@ -64,6 +78,7 @@ public class PlayerTrigger : MonoBehaviour {
 			} else if (touchingLadder && ladderState && !GetComponent<PlatformerCharacter2D>().m_Grounded){
 				transform.position += new Vector3(0f, -0.1f);
 			}
+			gameObject.GetComponent<Animator>().SetBool("BougeGrimpe", true);
 		}
 
 		if (Input.GetKeyDown (KeyCode.Space) && ladderState) {
@@ -71,9 +86,4 @@ public class PlayerTrigger : MonoBehaviour {
 			GetComponent<Rigidbody2D>().gravityScale = 3;
 		}
 	}
-
-    public bool OnLadder()
-    {
-        return ladderState;
-    }
 }
