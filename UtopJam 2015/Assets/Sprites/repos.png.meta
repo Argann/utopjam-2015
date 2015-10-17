@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 1fe8028ee46144e49aaf70fbfd35a506
-timeCreated: 1445113610
+guid: d94d77c167113424591f5fc16515d054
+timeCreated: 1445116644
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: echelle_0
-    21300002: echelle_1
-    21300004: echelle_2
-    21300006: echelle_3
-    21300008: echelle_4
-    21300010: echelle_5
-    21300012: echelle_6
-    21300014: echelle_7
+    21300000: repos_0
+    21300002: repos_1
+    21300004: repos_2
+    21300006: repos_3
+    21300008: repos_4
+    21300010: repos_5
+    21300012: repos_6
+    21300014: repos_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,7 +57,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: echelle_0
+    - name: repos_0
       rect:
         serializedVersion: 2
         x: 0
@@ -67,7 +67,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: echelle_1
+    - name: repos_1
       rect:
         serializedVersion: 2
         x: 32
@@ -77,7 +77,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: echelle_2
+    - name: repos_2
       rect:
         serializedVersion: 2
         x: 64
@@ -87,7 +87,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: echelle_3
+    - name: repos_3
       rect:
         serializedVersion: 2
         x: 96
@@ -97,7 +97,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: echelle_4
+    - name: repos_4
       rect:
         serializedVersion: 2
         x: 128
@@ -107,7 +107,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: echelle_5
+    - name: repos_5
       rect:
         serializedVersion: 2
         x: 160
@@ -117,7 +117,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: echelle_6
+    - name: repos_6
       rect:
         serializedVersion: 2
         x: 192
@@ -127,7 +127,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: echelle_7
+    - name: repos_7
       rect:
         serializedVersion: 2
         x: 224

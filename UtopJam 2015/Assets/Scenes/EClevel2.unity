@@ -284,6 +284,47 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 491512, guid: 5fe40e4e42e154b49ad764247e5a1c2f, type: 2}
   m_PrefabInternal: {fileID: 457282251}
+--- !u!1 &502506601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 502506602}
+  - 61: {fileID: 502506603}
+  m_Layer: 0
+  m_Name: DialogTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &502506602
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 502506601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.3922157, y: -.62561965, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1620986777}
+  m_RootOrder: 8
+--- !u!61 &502506603
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 502506601}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: .0149002075, y: -2.07022095}
+  serializedVersion: 2
+  m_Size: {x: 3.35321355, y: 5.14044189}
 --- !u!1 &532493964
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,6 +871,7 @@ Transform:
   - {fileID: 1589398207}
   - {fileID: 924797211}
   - {fileID: 835279642}
+  - {fileID: 502506602}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!1 &1623637503
