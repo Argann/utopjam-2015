@@ -14,17 +14,21 @@ public class Element : MonoBehaviour
         {
             SetIsActive(true);
         }
+
+		gameObject.SetActive (startActivated);
     }
 
 
     public void Activate()
     {
         SetIsActive(true);
+		gameObject.SetActive (true);
     }
 
     public void Desactivate()
     {
-        SetIsActive(false);        
+        SetIsActive(false);
+		gameObject.SetActive (false);
     }
 
     public bool GetIsActive()
