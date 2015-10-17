@@ -9,12 +9,17 @@ public class SwitchAction : MonoBehaviour
     public Sprite on;
     public Sprite off;
 
+	void Awake(){
+		this.GetComponent<SpriteRenderer>().sprite = on;
+	}
+
     public void SwitchItem()
     {
-        if (this.GetComponent<SpriteRenderer>().sprite == on)
-        {
-            this.GetComponent<SpriteRenderer>().sprite = off;
-        }
+        if (this.GetComponent<SpriteRenderer> ().sprite == on) {
+			this.GetComponent<SpriteRenderer> ().sprite = off;
+		} else {
+			this.GetComponent<SpriteRenderer> ().sprite = on;
+		}
         foreach (GameObject item in items)
         {
             if (item.GetComponent<Element>().GetIsActive())
