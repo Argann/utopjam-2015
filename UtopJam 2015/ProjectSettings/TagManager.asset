@@ -10,6 +10,7 @@ TagManager:
   - HiddenPlatform
   - Door
   - HidingElement
+  - Dialogue
   layers:
   - Default
   - TransparentFX
