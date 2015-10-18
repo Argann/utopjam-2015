@@ -12,6 +12,7 @@ TagManager:
   - HidingElement
   - Dialogue
   - Fader
+  - TriggerDoor
   layers:
   - Default
   - TransparentFX
