@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: d643b50b78ba66e40a14284ebd57c96a
-timeCreated: 1445100627
+guid: 23f327ef036da334db271b6009c1a933
+timeCreated: 1445166729
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Plate-forme_0
-    21300002: Plate-forme_1
-    21300004: Plate-forme_2
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -41,48 +38,18 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 11
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: Plate-forme_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 256
-        height: 32
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plate-forme_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 256
-        height: 32
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plate-forme_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 32
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+    sprites: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

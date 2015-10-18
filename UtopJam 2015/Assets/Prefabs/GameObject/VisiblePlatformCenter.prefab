@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 440258}
   - 212: {fileID: 21282480}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 448624}
   - 61: {fileID: 6173412}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 405940}
   - 114: {fileID: 11454318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VisiblePlatformCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,6 +149,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300002, guid: d643b50b78ba66e40a14284ebd57c96a,
         type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 178076}
