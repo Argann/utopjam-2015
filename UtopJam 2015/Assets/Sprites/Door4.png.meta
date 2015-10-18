@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: 5217b34718118c84d9bc1a0202ea0448
-timeCreated: 1445116999
+guid: 507548dc0b06ce846afd18c7ffa8a7e5
+timeCreated: 1445165424
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: door 3_0
-    21300002: door 3_1
-    21300004: door 3_2
-    21300006: door 3_3
-    21300008: door 3_4
-    21300010: door 3_5
-    21300012: door 3_6
-    21300014: door 3_7
-    21300016: door 3_8
-    21300018: door 3_9
-    21300020: door 3_10
-    21300022: door 3_11
+    21300000: Door4_0
+    21300002: Door4_1
+    21300004: Door4_2
+    21300006: Door4_3
+    21300008: Door4_4
+    21300010: Door4_5
+    21300012: Door4_6
+    21300014: Door4_7
+    21300016: Door4_8
+    21300018: Door4_9
+    21300020: Door4_10
+    21300022: Door4_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -49,7 +49,6 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -62,125 +61,125 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: door 3_0
+    - name: Door4_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_1
+    - name: Door4_1
       rect:
         serializedVersion: 2
         x: 58
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_2
+    - name: Door4_2
       rect:
         serializedVersion: 2
-        x: 116
+        x: 117
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_3
+    - name: Door4_3
       rect:
         serializedVersion: 2
-        x: 174
+        x: 175
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_4
+    - name: Door4_4
       rect:
         serializedVersion: 2
-        x: 232
+        x: 233
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_5
+    - name: Door4_5
       rect:
         serializedVersion: 2
         x: 290
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_6
+    - name: Door4_6
       rect:
         serializedVersion: 2
         x: 348
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_7
+    - name: Door4_7
       rect:
         serializedVersion: 2
         x: 406
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_8
+    - name: Door4_8
       rect:
         serializedVersion: 2
-        x: 464
+        x: 463
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_9
+    - name: Door4_9
       rect:
         serializedVersion: 2
-        x: 522
+        x: 521
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_10
+    - name: Door4_10
       rect:
         serializedVersion: 2
         x: 580
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: door 3_11
+    - name: Door4_11
       rect:
         serializedVersion: 2
         x: 638
         y: 0
         width: 58
-        height: 49
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
