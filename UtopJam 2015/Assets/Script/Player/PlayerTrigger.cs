@@ -22,7 +22,9 @@ public class PlayerTrigger : MonoBehaviour {
 		} else if (other_go.tag == "HiddenPlatform") {
 			other_go.gameObject.GetComponent<HiddenPlatform> ().ShowSprite (true);
 		} else if (other_go.tag == "Door") {
-			other_go.GetComponent<Animator>().SetBool("doorIsOpen", true);
+			other_go.GetComponent<Animator> ().SetBool ("doorIsOpen", true);
+		} else if (other_go.tag == "TriggerDoor") {
+			other_go.GetComponent<FadeInFadeOut>().fadeOut = true;
         } else if (other_go.tag == "HidingElement") {
             other_go.gameObject.GetComponent<DisappearingElement>().ShowSprite(true);
         }  else if (other_go.tag == "Dialogue")
