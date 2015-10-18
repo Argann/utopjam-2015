@@ -9,12 +9,16 @@ public class SwitchAction : MonoBehaviour
     public Sprite on;
     public Sprite off;
 
+	private AudioSource sound;
+
 	void Awake(){
 		this.GetComponent<SpriteRenderer>().sprite = on;
+		sound = GetComponent<AudioSource> ();
 	}
 
     public void SwitchItem()
     {
+		sound.Play ();
         if (this.GetComponent<SpriteRenderer> ().sprite == on) {
 			this.GetComponent<SpriteRenderer> ().sprite = off;
 		} else {
