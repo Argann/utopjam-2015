@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 823ddd293274858429a6a402a5eb0341
-timeCreated: 1445151823
+timeCreated: 1445153230
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -72,7 +72,7 @@ TextureImporter:
     - name: panneau_controletile_1
       rect:
         serializedVersion: 2
-        x: 228
+        x: 229
         y: 33
         width: 3
         height: 75
@@ -144,7 +144,7 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 33
-        width: 100
+        width: 101
         height: 24
       alignment: 0
       pivot: {x: .5, y: .5}

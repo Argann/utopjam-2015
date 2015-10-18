@@ -13,6 +13,9 @@ public class levelManager : MonoBehaviour
         if (Input.GetKeyDown("escape") && !isPaused)
         {
             StartPause();
+        } else if (Input.GetKeyDown("escape") && isPaused)
+        {
+            LeavePause();
         }
 
     }
