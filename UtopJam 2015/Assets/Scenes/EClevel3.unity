@@ -87,6 +87,11 @@ NavMeshSettings:
 --- !u!127 &5
 LevelGameManager:
   m_ObjectHideFlags: 0
+--- !u!82 &8962153 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 8250258, guid: 161770cd0def0704682ffe48f7e867a8,
+    type: 2}
+  m_PrefabInternal: {fileID: 594391524}
 --- !u!1 &19029301
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +474,12 @@ Prefab:
       propertyPath: m_JumpForce
       value: 1000
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11447668, guid: 161770cd0def0704682ffe48f7e867a8, type: 2}
+      propertyPath: jump_sound
+      value: 
+      objectReference: {fileID: 8962153}
+    m_RemovedComponents:
+    - {fileID: 11475794, guid: 161770cd0def0704682ffe48f7e867a8, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 161770cd0def0704682ffe48f7e867a8, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &942653726
