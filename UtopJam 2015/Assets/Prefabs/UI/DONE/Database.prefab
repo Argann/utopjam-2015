@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401006}
+  - 114: {fileID: 11420782}
+  m_Layer: 0
+  m_Name: Database
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.30999994, y: -1.36000001, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11420782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb4c63d1a6dbada418efd473d98d2887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  db:
+  - "\"Project TOS.XI-042\\nRapport n\\u00b01:\\n\\nDate d\\'entree: 21/13/2023:\\n\\n\"
+    +                 \"La selection des sujets est finalement terminee. \\n\" +                 \"Les
+    candidats ont ete choisis sur leurs aptitudes physiques et intellectuelles dans
+    le but d\u2019explorer \u201Cl\u2019autre cote\u201D nom de code dimmension NX-37-R.
+    \\n\" +                 \"Leur role est capital : ils seront les premiers e entrer
+    en contact avec d\u2019eventuels etres vivants. \\n\" +                 \"Les
+    informations et echantillons qu\u2019ils rameneront seront essentielles e la comprehension
+    de ce nouvel univers. \\n\" +                 \"Actuellement, nos explorateurs
+    suivent un entra\xEEnement specialise dans le but de les preparer au -plongeon-.
+    \\n\" +                 \"Transfert prevu pour la semaine prochaine.\""
+  - "\"Project TOS.XI-042\\nRapport n\\u00b024:\\n\\nDate d\\'entree: 28/10/2023:\\n\\n\"
+    +                 \"Le projet TOS.XI-042 s\u2019est solde par un echec cuisant.
+    /n\" +                 \"Nous avons sous-estime les ressources necessaires au
+    voyage entre les dimensions : /n\" +                 \"aucun des voyageurs n\u2019a
+    atteint l\u2019autre cote. /n\" +                 \"Plusieurs d\u2019entre eux
+    sont sujets e des hallucinations depuis hier : /n\" +                 \"il se
+    pourrait qu\u2019ils soient, d\u2019une certaine maniere, connectes e l\u2019autre
+    dimension. /n\" +                 \"Le cas du sujet XM014 est neanmoins inquietant.
+    /n\" +                 \"Il est le seul e ne pas s\u2019etre reveille du transfert,
+    /n\" +                 \"et l\u2019espace autour de sa cellule semble instable.
+    /n\" +                 \"Il se pourrait qu\u2019une partie de lui soit arrivee
+    dans la Nouvelle Dimension, /n\" +                 \"mais rien ne peut nous l\u2019assurer.
+    /n\" +                 \"L\u2019observation de son cas constituera notre mission
+    principale au cours des prochains jours.\""
+  - "\"EVACUATION D\u2019URGENCE \\n\" +                 \"L\u2019\xE9tat d\u2019\xE9vacuation
+    d\u2019urgence est annonc\xE9. \\n\" +                 \"Veuillez vous diriger
+    imm\xE9diatement vers la sortie la plus proche.\""
+  - "\"Project TOS.XI-042\\n\" +                 \"Rapport n\\u00b076:\\n\\nDate d\\'entree:
+    29/10/2023:\\n\\n\" +                 \"L\u2019espace commence e se desagreger
+    autour de la cellule du sujet XM014.\\n\" +                 \"La zone concernee
+    semble s\u2019elargir d\u2019heure en heure : \\n\" +                 \"il est
+    possible qu\u2019une evacuation des locaux soit necessaire pour\" +                 \"
+    assurer la securite des sujets ainsi que celle du personnel.\\n\" +                 \"Il
+    semblerait que nos deux dimensions soient peu e peu en train de se superposer.\\n\"
+    +                 \"Afin d\u2019assurer la stabilite de notre monde, la decision
+    de couper\" +                 \" definitivement le Connecteur Dimensionnel a ete
+    prise par le chef des operations,\" +                 \" meme si cela implique
+    d\u2019abandonner le sujet XM014 actuellement confine dans sa cellule.\""
+  - "\"Project TOS.XI-042\\n\" +                 \"Rapport n\\u00b0101:\\n\\nDate
+    d\\'entree: 29/10/2023:\\n\\n\" +                 \"Il est impossible de desactiver
+    le Connecteur Dimensionnel.\\n \" +                 \"L\u2019extension de la zone
+    est desormais hors de controle : \\n\" +                 \"L\u2019armee va proceder
+    e une evacuation de la ville. \\n\" +                 \"Il est impossible de presager...
+    [Le rapport s\u2019arrete ici].\""
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: db.Array.data[0]
+      value: "\"Project TOS.XI-042\\nRapport n\\u00b01:\\n\\nDate d\\'entree: 21/13/2023:\\n\\n\"
+        +                 \"La selection des sujets est finalement terminee. \\n\"
+        +                 \"Les candidats ont ete choisis sur leurs aptitudes physiques
+        et intellectuelles dans le but d\u2019explorer \u201Cl\u2019autre cote\u201D
+        nom de code dimmension NX-37-R. \\n\" +                 \"Leur role est capital
+        : ils seront les premiers e entrer en contact avec d\u2019eventuels etres
+        vivants. \\n\" +                 \"Les informations et echantillons qu\u2019ils
+        rameneront seront essentielles e la comprehension de ce nouvel univers. \\n\"
+        +                 \"Actuellement, nos explorateurs suivent un entra\xEEnement
+        specialise dans le but de les preparer au -plongeon-. \\n\" +                 \"Transfert
+        prevu pour la semaine prochaine.\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: db.Array.data[1]
+      value: "\"Project TOS.XI-042\\nRapport n\\u00b024:\\n\\nDate d\\'entree: 28/10/2023:\\n\\n\"
+        +                 \"Le projet TOS.XI-042 s\u2019est solde par un echec cuisant.
+        /n\" +                 \"Nous avons sous-estime les ressources necessaires
+        au voyage entre les dimensions : /n\" +                 \"aucun des voyageurs
+        n\u2019a atteint l\u2019autre cote. /n\" +                 \"Plusieurs d\u2019entre
+        eux sont sujets e des hallucinations depuis hier : /n\" +                 \"il
+        se pourrait qu\u2019ils soient, d\u2019une certaine maniere, connectes e l\u2019autre
+        dimension. /n\" +                 \"Le cas du sujet XM014 est neanmoins inquietant.
+        /n\" +                 \"Il est le seul e ne pas s\u2019etre reveille du transfert,
+        /n\" +                 \"et l\u2019espace autour de sa cellule semble instable.
+        /n\" +                 \"Il se pourrait qu\u2019une partie de lui soit arrivee
+        dans la Nouvelle Dimension, /n\" +                 \"mais rien ne peut nous
+        l\u2019assurer. /n\" +                 \"L\u2019observation de son cas constituera
+        notre mission principale au cours des prochains jours.\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: db.Array.data[3]
+      value: "\"Project TOS.XI-042\\n\" +                 \"Rapport n\\u00b076:\\n\\nDate
+        d\\'entree: 29/10/2023:\\n\\n\" +                 \"L\u2019espace commence
+        e se desagreger autour de la cellule du sujet XM014.\\n\" +                 \"La
+        zone concernee semble s\u2019elargir d\u2019heure en heure : \\n\" +                 \"il
+        est possible qu\u2019une evacuation des locaux soit necessaire pour\" +                 \"
+        assurer la securite des sujets ainsi que celle du personnel.\\n\" +                 \"Il
+        semblerait que nos deux dimensions soient peu e peu en train de se superposer.\\n\"
+        +                 \"Afin d\u2019assurer la stabilite de notre monde, la decision
+        de couper\" +                 \" definitivement le Connecteur Dimensionnel
+        a ete prise par le chef des operations,\" +                 \" meme si cela
+        implique d\u2019abandonner le sujet XM014 actuellement confine dans sa cellule.\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: db.Array.data[4]
+      value: "\"Project TOS.XI-042\\n\" +                 \"Rapport n\\u00b0101:\\n\\nDate
+        d\\'entree: 29/10/2023:\\n\\n\" +                 \"Il est impossible de desactiver
+        le Connecteur Dimensionnel.\\n \" +                 \"L\u2019extension de
+        la zone est desormais hors de controle : \\n\" +                 \"L\u2019armee
+        va proceder e une evacuation de la ville. \\n\" +                 \"Il est
+        impossible de presager... [Le rapport s\u2019arrete ici].\""
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 124032}
+  m_IsPrefabParent: 1
