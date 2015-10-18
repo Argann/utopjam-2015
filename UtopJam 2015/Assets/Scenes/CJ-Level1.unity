@@ -517,7 +517,6 @@ Prefab:
         type: 3}
     - target: {fileID: 401256, guid: 5ff83ab52770b3e43b9d45302db93950, type: 2}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
       value: -.930000007
       objectReference: {fileID: 0}
     - target: {fileID: 401256, guid: 5ff83ab52770b3e43b9d45302db93950, type: 2}
@@ -527,9 +526,18 @@ Prefab:
     - target: {fileID: 11437974, guid: 5ff83ab52770b3e43b9d45302db93950, type: 2}
       propertyPath: ladderState
       value: 1
-=======
-      value: -.921999991
->>>>>>> 8f55935a8b63424fb3e25e23369646931fdcd027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170366, guid: 5ff83ab52770b3e43b9d45302db93950, type: 2}
+      propertyPath: m_Offset.y
+      value: -.247354329
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170366, guid: 5ff83ab52770b3e43b9d45302db93950, type: 2}
+      propertyPath: m_Size.x
+      value: .249999925
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170366, guid: 5ff83ab52770b3e43b9d45302db93950, type: 2}
+      propertyPath: m_Size.y
+      value: 1.29470873
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5ff83ab52770b3e43b9d45302db93950, type: 2}
