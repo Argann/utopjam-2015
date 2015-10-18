@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Ground
+  - LightSwitch
+  - Ladder
+  - HiddenPlatform
+  - Door
+  - HidingElement
+  - Dialogue
+  - Fader
+  - TriggerDoor
+  - TriggerVaisseau
+>>>>>>> 1e5423e0d0b6fd071fd5129dd704ff633329c0ac
   layers:
   - Default
   - TransparentFX
