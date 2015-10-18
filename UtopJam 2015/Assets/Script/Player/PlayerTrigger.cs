@@ -56,6 +56,7 @@ public class PlayerTrigger : MonoBehaviour {
 	}
 
 	void Update(){
+
 		if (Input.GetKeyDown (KeyCode.E)) {
 			if (touchingLightSwitch)
 				lightSwitch.GetComponent<SwitchAction>().SwitchItem();
