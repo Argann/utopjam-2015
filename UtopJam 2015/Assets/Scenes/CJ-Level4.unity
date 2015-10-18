@@ -797,6 +797,60 @@ AudioSource:
 Transform:
   m_PrefabParentObject: {fileID: 442000, guid: d80ed78aafb9fe2469556824ea4c20e3, type: 2}
   m_PrefabInternal: {fileID: 407171660}
+--- !u!1 &950484804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 950484807}
+  - 61: {fileID: 950484806}
+  - 114: {fileID: 950484805}
+  m_Layer: 0
+  m_Name: TriggerVaisseau
+  m_TagString: TriggerVaisseau
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &950484805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950484804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5be0eba336922b429e3b867ee4d1c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vaisseau: {fileID: 1670274113}
+--- !u!61 &950484806
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950484804}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: .0642104149, y: -.695612907}
+  serializedVersion: 2
+  m_Size: {x: 2.92631483, y: 3.33298087}
+--- !u!4 &950484807
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950484804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.4000001, y: -10.4300003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &988207807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1129,7 +1183,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670274113}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.27999973, y: -8.14000034, z: 0}
+  m_LocalPosition: {x: 8.27999973, y: -9.27000046, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 283915991}
@@ -1392,7 +1446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2032199616
 Transform:
   m_ObjectHideFlags: 0
