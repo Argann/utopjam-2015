@@ -11,6 +11,9 @@ public class PlayerTrigger : MonoBehaviour {
 	public bool ladderState = false;
 	private GameObject ladder = null;
 
+	private bool touchingVaisseau = false;
+	private GameObject vaisseau;
+
 	void OnTriggerEnter2D(Collider2D other_go){
         
 		if (other_go.tag == "LightSwitch") {
@@ -24,7 +27,10 @@ public class PlayerTrigger : MonoBehaviour {
 		} else if (other_go.tag == "Door") {
 			other_go.GetComponent<Animator> ().SetBool ("doorIsOpen", true);
 		} else if (other_go.tag == "TriggerDoor") {
-			other_go.GetComponent<FadeInFadeOut>().fadeOut = true;
+			other_go.GetComponent<FadeInFadeOut> ().fadeOut = true;
+		} else if (other_go.tag == "TriggerVaisseau") {
+			touchingVaisseau = true;
+			vaisseau = other_go.gameObject;
         } else if (other_go.tag == "HidingElement") {
             other_go.gameObject.GetComponent<DisappearingElement>().ShowSprite(true);
         }  else if (other_go.tag == "Dialogue")
@@ -50,7 +56,10 @@ public class PlayerTrigger : MonoBehaviour {
         } else if (other_go.tag == "HidingElement")
         {
             other_go.gameObject.GetComponent<DisappearingElement>().ShowSprite(false);
-        }
+		} else if (other_go.tag == "TriggerVaisseau") {
+			touchingVaisseau = false;
+			vaisseau = null;
+		}
         else if (other_go.tag == "Dialogue")
         {
             other_go.gameObject.GetComponent<DialogTrigger>().ShowSprite(false);
@@ -62,6 +71,10 @@ public class PlayerTrigger : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.E)) {
 			if (touchingLightSwitch)
 				lightSwitch.GetComponent<SwitchAction>().SwitchItem();
+
+			if (touchingVaisseau)
+				vaisseau.GetComponent<TriggerVaisseau>().launchAnimation();
+
 		}
 
 		if (ladderState) {

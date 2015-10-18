@@ -13,6 +13,7 @@ TagManager:
   - Dialogue
   - Fader
   - TriggerDoor
+  - TriggerVaisseau
   layers:
   - Default
   - TransparentFX
