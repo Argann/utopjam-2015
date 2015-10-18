@@ -20,6 +20,11 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
+		public AudioSource jumpSound;
+		public AudioSource landingSound;
+
+		private bool parTerre = true;
+
         private void Awake()
         {
             // Setting up references.
@@ -32,6 +37,7 @@ namespace UnityStandardAssets._2D
 
         private void FixedUpdate()
         {
+			parTerre = m_Grounded;
             m_Grounded = false;
 
             // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
@@ -39,8 +45,13 @@ namespace UnityStandardAssets._2D
             Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
             for (int i = 0; i < colliders.Length; i++)
             {
-                if (colliders[i].gameObject != gameObject)
-                    m_Grounded = true;
+                if (colliders[i].gameObject != gameObject){
+					if (!parTerre){
+						landingSound.Play();
+					}
+					m_Grounded = true;
+				}
+                    
             }
             m_Anim.SetBool("Ground", m_Grounded);
 
@@ -95,7 +106,9 @@ namespace UnityStandardAssets._2D
                 // Add a vertical force to the player.
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
+				jumpSound.Play();
                 m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+
             }
         }
 
