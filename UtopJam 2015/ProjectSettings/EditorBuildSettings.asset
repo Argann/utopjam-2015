@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start.unity
   - enabled: 1
-    path: Assets/Scenes/AB-mainscene.unity
+    path: Assets/Scenes/CJ-Level1.unity
+  - enabled: 1
+    path: Assets/Scenes/EClevel2.unity
+  - enabled: 1
+    path: Assets/Scenes/EClevel3.unity
   - enabled: 1
     path: Assets/Scenes/Credits.unity
+  - enabled: 0
+    path: Assets/Scenes/AB-mainscene.unity
