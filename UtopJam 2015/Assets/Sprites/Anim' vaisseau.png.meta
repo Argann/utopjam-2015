@@ -1,12 +1,13 @@
 fileFormatVersion: 2
-guid: d643b50b78ba66e40a14284ebd57c96a
-timeCreated: 1445100627
+guid: 9a068bc0fe3e5424caf6a18ae6659e70
+timeCreated: 1445157092
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Plate-forme_0
-    21300002: Plate-forme_1
-    21300004: Plate-forme_2
+    21300000: Anim' vaisseau_0
+    21300002: Anim' vaisseau_1
+    21300004: Anim' vaisseau_2
+    21300006: Anim' vaisseau_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -47,41 +48,51 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 11
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Plate-forme_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 256
-        height: 32
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plate-forme_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 256
-        height: 32
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Plate-forme_2
+    - name: Anim' vaisseau_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 256
-        height: 32
+        height: 256
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Anim' vaisseau_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Anim' vaisseau_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Anim' vaisseau_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

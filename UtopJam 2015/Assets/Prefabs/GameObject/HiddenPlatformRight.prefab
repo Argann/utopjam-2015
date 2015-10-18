@@ -207,6 +207,17 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: .5
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+>>>>>>> 2e41e43c97ee150e605bda3d1f3de5a9f6b1646e
+>>>>>>> 1bfbaf0db4ba20fd4d5e2fadcfdd71c09f772841
+=======
+>>>>>>> c732bd673b0e5f85d17ec5426be5ace2dd163a8f
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 144184}
