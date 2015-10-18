@@ -11,6 +11,8 @@ TagManager:
   - Door
   - HidingElement
   - Dialogue
+  - Fader
+  - TriggerDoor
   layers:
   - Default
   - TransparentFX
@@ -20,8 +22,8 @@ TagManager:
   - UI
   - 
   - 
-  - PlateformLayer
-  - PlayerLayer
+  - 
+  - 
   - 
   - 
   - 
