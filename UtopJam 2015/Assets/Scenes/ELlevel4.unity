@@ -256,11 +256,11 @@ Prefab:
       objectReference: {fileID: 916203557}
     - target: {fileID: 22462436, guid: 24258e6eaa0639047b926e784595bc0c, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 644
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22490120, guid: 24258e6eaa0639047b926e784595bc0c, type: 2}
       propertyPath: m_AnchorMin.y
-      value: .581372082
+      value: .662474036
       objectReference: {fileID: 0}
     - target: {fileID: 22490120, guid: 24258e6eaa0639047b926e784595bc0c, type: 2}
       propertyPath: m_AnchorMax.x
@@ -280,7 +280,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22462436, guid: 24258e6eaa0639047b926e784595bc0c, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 193.68306
+      value: 207.91861
       objectReference: {fileID: 0}
     - target: {fileID: 22462436, guid: 24258e6eaa0639047b926e784595bc0c, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -288,7 +288,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22462436, guid: 24258e6eaa0639047b926e784595bc0c, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 357.366119
+      value: 385.837219
       objectReference: {fileID: 0}
     - target: {fileID: 11416840, guid: 24258e6eaa0639047b926e784595bc0c, type: 2}
       propertyPath: m_FontData.m_Font
