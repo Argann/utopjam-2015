@@ -65,7 +65,6 @@ LightmapSettings:
     m_TextureCompression: 1
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
-    m_ReflectionCompression: 2
   m_LightmapSnapshot: {fileID: 0}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
@@ -85,6 +84,9 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!127 &5
+LevelGameManager:
+  m_ObjectHideFlags: 0
 --- !u!1 &19029301
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,6 +535,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1029776345}
   - 212: {fileID: 1029776344}
+  - 114: {fileID: 1029776346}
   m_Layer: 0
   m_Name: level3lightout
   m_TagString: Untagged
@@ -578,6 +581,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1943022498}
   m_RootOrder: 1
+--- !u!114 &1029776346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1029776343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81289fc92f6bb2d4bb35b3de17d5ca7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startActivated: 1
 --- !u!1001 &1159237508
 Prefab:
   m_ObjectHideFlags: 0
@@ -695,6 +710,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1353643404}
   - 212: {fileID: 1353643405}
+  - 114: {fileID: 1353643406}
   m_Layer: 0
   m_Name: level3lightin
   m_TagString: Untagged
@@ -740,6 +756,18 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7f420c5171117744e8ecc391de015f70, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1353643406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1353643403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81289fc92f6bb2d4bb35b3de17d5ca7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startActivated: 0
 --- !u!1001 &1476660787
 Prefab:
   m_ObjectHideFlags: 0
@@ -921,7 +949,6 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
