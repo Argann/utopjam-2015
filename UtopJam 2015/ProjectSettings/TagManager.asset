@@ -9,6 +9,8 @@ TagManager:
   - Ladder
   - HiddenPlatform
   - Door
+  - HidingElement
+  - Dialogue
   layers:
   - Default
   - TransparentFX
