@@ -56,6 +56,9 @@ public class PlayerTrigger : MonoBehaviour {
 	}
 
 	void Update(){
+
+		Physics2D.IgnoreLayerCollision (9, 8, GetComponent<Rigidbody2D>().velocity.y > 0);
+
 		if (Input.GetKeyDown (KeyCode.E)) {
 			if (touchingLightSwitch)
 				lightSwitch.GetComponent<SwitchAction>().SwitchItem();
