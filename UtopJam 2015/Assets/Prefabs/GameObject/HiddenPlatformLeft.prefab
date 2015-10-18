@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 455986}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: HiddenPlatformLeft
   m_TagString: HiddenPlatform
   m_Icon: {fileID: 0}
@@ -24,7 +24,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 475194}
   - 61: {fileID: 6132900}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - 4: {fileID: 465600}
   - 61: {fileID: 6133066}
   - 114: {fileID: 11404182}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ShowPlatform
   m_TagString: HiddenPlatform
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 497406}
   - 212: {fileID: 21263898}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: HiddenPlatform
   m_Icon: {fileID: 0}
@@ -222,10 +222,6 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Size.y
       value: 9.99999975e-05
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
