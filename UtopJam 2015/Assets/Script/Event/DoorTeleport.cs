@@ -3,8 +3,10 @@ using System.Collections;
 
 public class DoorTeleport : MonoBehaviour {
 
+	public GameObject fade;
+
 	void teleport(){
-		Debug.Log ("ON EST TIPAR");
+		fade.GetComponent<FadeInFadeOut> ().EndScene ();
 	}
 
 }
