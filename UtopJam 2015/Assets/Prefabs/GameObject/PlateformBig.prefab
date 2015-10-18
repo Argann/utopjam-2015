@@ -75,7 +75,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 479578}
   m_Layer: 0
-  m_Name: 1WayHiddenPlatformCenter
+  m_Name: PlateformBig
   m_TagString: HiddenPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
